@@ -48,7 +48,7 @@ body{
     letter-spacing: 0.025em;
     color: #767676;
     text-decoration: none;
-    border-bottom: 1px dashed #767676;
+    border-bottom: 2px dashed #767676;
 }
 .contact{
     text-align: right;
@@ -109,13 +109,13 @@ body{
     margin: 0 auto;
     max-width: 960px;
 }
-.list{
+.list-left{
     display: flex;
     flex-direction: column;
     width: auto;
     height: 256px;
 }
-.list p{
+.list-left p{
     font-family: 'PT Sans',sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -125,15 +125,17 @@ body{
     margin-top: 0;
     margin-bottom: 0;
 }
-.list ul{
+.list-left ul{
+    font-family: 'PT Sans',sans-serif;
     font-size: 14px;
     line-height: 22px;
 }
-.list li{
+.list-left li{
+    font-family: 'PT Sans',sans-serif;
     color: #767676;
 }
 
-.list span{
+.list-left span{
     text-decoration: underline;
     color: #cbcbcb;
 }
@@ -215,12 +217,59 @@ body{
     padding-top: 48px;
     margin-left: 57px;
 }
+.nav{
+    padding-top: 32px;
+    margin: 0 auto;
+    width: 190px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.565em;
+    color: #767676;
+}
+.nav b:hover{
+    color: black;
+    font-size: 18px;
+}
+.line{
+    margin: 0 auto;
+    margin-left: 650px;
+    margin-top: 67px;
+    background-color: black;
+    width: 780px;
+    height: 1px;
+}
+.text-block{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 180px;
+}
+.text-block p{
+    font-family: 'PT Sans',sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.pl{
+    height: 172px;
+    width: 371px;
+    padding-right: 40px;
+}
+.pr{
+    height: 214px;
+    width: 371px;
+}
 #footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #777777;
     padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: auto;
 }
 .footer-side{
@@ -260,7 +309,7 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 150vh;
+    min-height: 70vh;
 }
 .slick-list{
     overflow: hidden;

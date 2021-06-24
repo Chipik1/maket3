@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <script src="js/script.js"></script>
     <script src="js/slick.min.js"></script>
+    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="css/remodal-default-theme.css">
+    <script src="js/remodal.min.js"></script>
+    <script src="js/script-form.js"></script>
+
 </head>
 
 <body>
@@ -21,6 +26,7 @@
             <div class="contact">
                 <p>+7(499) 777-77-77</p>
                 <p>+7(499) 777-77-77</p>
+                <p><a class="mainButton" href="#modal">Обратная связь</a></p>
             </div>
         </div>
 
@@ -51,7 +57,7 @@
     <p><b>Главная</b> / <b>Каталог</b> / <b>Бытовая техника</b></p>
 </div>
 <div class="category-list">
-    <div class="list">
+    <div class="list-left">
         <div class="text">
             <p>Автомобили</p>
             <span class="menu-list"><p>Бытовая техника</p></span>
@@ -111,13 +117,22 @@
             </div>
         </div>
     </div>
-    <div class="nav">
-        <p></p>
+</div>
+<div class="nav">
+    <p><b>1</b> <b>2</b> <b>3</b> <b>4</b> <b>5</b> <b>6</b> <b>7</b></p>
+</div>
+<div class="line">
+
+</div>
+<div class="text-block">
+    <div class="pl">
+        <p>Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души.</p>
+    </div>
+    <div class="pr">
+        <p>Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.</p>
     </div>
 </div>
 <div class="page">
-
-
 <div id="footer">
     <div class="footer-side">
         <p>© 2012–2013 ЗАО «Компания»</p>
@@ -135,6 +150,24 @@
         <a href=""><p>Разработка сайта - компания «Пиксель Плюс»</p></a>
     </div>
 </div>
+</div>
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+    <div class="remodalBorder">
+        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+        <form id="form">
+            <h2 id="modal1Title">ОБРАТНАЯ СВЯЗЬ</h2>
+            <h3 class="name-label">Ваше имя*</h3>
+            <input type="text" class="putName" name="name" placeholder="" required>
+            <h3 class="name-label">Телефон*</h3>
+            <input name="phone" type="tel" class="putPhone" placeholder="" required>
+            <h3 class="name-label">Email*</h3>
+            <input name="email" type="email" class="putEmail" placeholder="" required>
+            <h3 class="name-label">Сообщение</h3>
+            <input type="text" class="putMessage" placeholder="" required>
+            <input type="submit" name="submit" class="btn" value="ОТПРАВИТЬ">
+            <input type="hidden" name="formData" value="Заявка с сайта">
+        </form>
+    </div>
 </div>
 </body>
 </html>
