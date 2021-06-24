@@ -1,0 +1,278 @@
+div, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: "Open Sans Condensed Light";
+    src: local('fonts/opensanscondensed-light-webfont');
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0 auto;
+}
+#header{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.head{
+    height: 230px;
+    background-color: #dcdcdc;
+}
+.logo_image{
+    height:100px;
+    width:273px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 960px;
+}
+.contact p {
+    font-family: "Open Sans Condensed Light", sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.contact a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    line-height: 46px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #767676;
+    text-decoration: none;
+    border-bottom: 1px dashed #767676;
+}
+.contact{
+    text-align: right;
+}
+#menu{
+    text-decoration: none;
+}
+.head_menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #767676;
+}
+.head_menu_text {
+    display: inline-flex;
+    font-family:"PT Sans", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.head_menu_text ul{
+    display: flex;
+}
+
+.head_menu_text a:hover{
+    text-decoration: underline;
+}
+.head_menu_text ul:after{
+    content:"|";
+    color: white;
+    padding: inherit;
+}
+.head_menu_text a{
+    color: white;
+}
+.slider{
+    min-width: 0;
+    margin: 0 auto;
+    z-index: auto;
+}
+
+.category {
+    margin: 0 auto;
+    width: 980px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.category-list{
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 256px;
+}
+.list p{
+    font-family: 'PT Sans',sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list ul{
+    font-size: 14px;
+    line-height: 22px;
+}
+.list li{
+    color: #767676;
+}
+.list b{
+    color: black;
+    text-decoration: underline;
+}
+.list span{
+    text-decoration: underline;
+    color: #cbcbcb;
+}
+.ms img{
+    padding-top: 108px;
+    padding-left: 30px;
+}
+.ms p{
+    font-family: 'PT Sans',sans-serif;
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #444444;
+}
+.element{
+    display: flex;
+    flex-wrap: wrap;
+}
+.element-store{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 380px;
+    background-color: #dcdcdc;
+}
+.element img{
+    padding: 20px;
+}
+.element p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.price{
+    display: flex;
+}
+.price p{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 28px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #444444;
+}
+.price img{
+    padding-top: 48px;
+    margin-left: 57px;
+}
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #777777;
+    padding-top: 50px;
+    margin-top: auto;
+}
+.footer-side{
+    font-family:"PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+.list ul{
+    font-family:"PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+.logo-footer{
+    display: flex;
+    height:38px;
+    width:36px;
+}
+.logo-footer p{
+    margin-top: 0;
+    margin-left: 10px;
+    font-family:"PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    width: 210px;
+}
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+.slider{
+    position: relative;
+    margin-top: -30px;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index:1500;
+    font-size: 0;
+    width: 34px;
+    height: 61px;
+}
+.slider .slick-arrow.slick-prev{
+    left: 25%;
+    background: url("../img/left.png") 0 0 no-repeat;
+}
+.slider .slick-arrow.slick-next{
+    right: 25%;
+    background: url("../img/right.png") 0 0 no-repeat;
+}
+.slider-item{
+    display: flex;
+    justify-content: center;
+}
+.slider-track{
+    display: flex;
+    justify-content: center;
+}
