@@ -101,7 +101,6 @@ body{
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
-    text-decoration: underline;
     letter-spacing: 0.025em;
     color: #767676;
 }
@@ -133,13 +132,34 @@ body{
 .list li{
     color: #767676;
 }
-.list b{
-    color: black;
-    text-decoration: underline;
-}
+
 .list span{
     text-decoration: underline;
     color: #cbcbcb;
+}
+.hidden-menu{
+    display: none;
+}
+.text:hover .hidden-menu{
+   display: block;
+}
+.menu-list:hover .hidden-menu{
+    display: block;
+}
+.hidden-menu li:hover{
+    color: black;
+    text-decoration: underline;
+}
+.text p:hover{
+    color: black;
+    text-decoration: underline;
+}
+.category b:hover{
+    color: black;
+    text-decoration: underline;
+}
+.ms{
+    width: 170px;
 }
 .ms img{
     padding-top: 108px;
