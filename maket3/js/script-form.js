@@ -6,7 +6,6 @@ $(document).ready(function () {
         var formNm = $('#' + formID);
         $.ajax({
             type: "POST",
-            url: 'mail.php',
             data: formNm.serialize(),
             success: function (data) {
                 // Вывод текста результата отправки
@@ -14,7 +13,7 @@ $(document).ready(function () {
             },
             error: function (jqXHR, text, error) {
                 // Вывод текста ошибки отправки
-                $(formNm).html(error);         
+                $(formNm).html(error);
             }
         });
         return false;

@@ -1,12 +1,10 @@
 html.remodal-is-locked {
   overflow: hidden;
 }
-
 .remodal,
 [data-remodal-id] {
   display: none;
 }
-
 .remodal-overlay {
   position: fixed;
   z-index: 9999;
@@ -14,10 +12,8 @@ html.remodal-is-locked {
   right: -5000px;
   bottom: -5000px;
   left: -5000px;
-
   display: none;
 }
-
 .remodal-wrapper {
   position: fixed;
   z-index: 10000;
@@ -30,7 +26,6 @@ html.remodal-is-locked {
   text-align: center;
   -webkit-overflow-scrolling: touch;
 }
-
 .remodal-wrapper:after {
   display: inline-block;
   height: 100%;
@@ -42,7 +37,6 @@ html.remodal-is-locked {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .remodal {
   position: relative;
   outline: none;
@@ -51,7 +45,6 @@ html.remodal-is-locked {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
-
 .remodal-is-initialized {
   display: inline-block;
 }

@@ -2,7 +2,6 @@ div, ul{
     margin-top: 0;
     margin-bottom: 0;
 }
-
 @font-face {
     font-family: "Open Sans Condensed Light";
     src: local('fonts/opensanscondensed-light-webfont');
@@ -76,7 +75,6 @@ body{
 .head_menu_text ul{
     display: flex;
 }
-
 .head_menu_text a:hover{
     text-decoration: underline;
 }
@@ -93,7 +91,6 @@ body{
     margin: 0 auto;
     z-index: auto;
 }
-
 .category {
     margin: 0 auto;
     width: 980px;
@@ -134,7 +131,6 @@ body{
     font-family: 'PT Sans',sans-serif;
     color: #767676;
 }
-
 .list-left span{
     text-decoration: underline;
     color: #cbcbcb;

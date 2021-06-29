@@ -3,31 +3,25 @@
   -webkit-filter: blur(3px);
   filter: blur(3px);
 }
-
 .remodal-overlay {
   background: rgba(43, 46, 56, 0.9);
 }
-
 .remodal-overlay.remodal-is-opening,
 .remodal-overlay.remodal-is-closing {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
 .remodal-overlay.remodal-is-opening {
   -webkit-animation: remodal-overlay-opening-keyframes 0.3s;
   animation: remodal-overlay-opening-keyframes 0.3s;
 }
-
 .remodal-overlay.remodal-is-closing {
   -webkit-animation: remodal-overlay-closing-keyframes 0.3s;
   animation: remodal-overlay-closing-keyframes 0.3s;
 }
-
 .remodal-wrapper {
   padding: 10px;
 }
-
 .remodal {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -47,28 +41,23 @@
   /* border: 1px solid #e1e1e1; */
   /* padding: 4% 5% 0.8%; */
 }
-
 .remodal.remodal-is-opening,
 .remodal.remodal-is-closing {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
 .remodal.remodal-is-opening {
   -webkit-animation: remodal-opening-keyframes 0.3s;
   animation: remodal-opening-keyframes 0.3s;
 }
-
 .remodal.remodal-is-closing {
   -webkit-animation: remodal-closing-keyframes 0.3s;
   animation: remodal-closing-keyframes 0.3s;
 }
-
 .remodal,
 .remodal-wrapper:after {
   vertical-align: middle;
 }
-
 .remodal-close {
   position: absolute;
   top: 0;
@@ -88,12 +77,10 @@
   outline: 0;
   background: transparent;
 }
-
 .remodal-close:hover,
 .remodal-close:focus {
   color: #2b2e38;
 }
-
 .remodal-close:before {
   font-size: 25px;
   line-height: 35px;
@@ -105,8 +92,6 @@
   content: "\00d7";
   text-align: center;
 }
-
-
 .remodal-confirm,
 .remodal-cancel {
   font: inherit;
@@ -124,26 +109,21 @@
   border: 0;
   outline: 0;
 }
-
 .remodal-confirm {
   color: #fff;
   background: #81c784;
 }
-
 .remodal-confirm:hover,
 .remodal-confirm:focus {
   background: #66bb6a;
 }
-
 .remodal-cancel {
   color: #fff;
 
 }
-
 .remodal-cancel:hover,
 .remodal-cancel:focus {
 }
-
 .remodal-confirm::-moz-focus-inner,
 .remodal-cancel::-moz-focus-inner,
 .remodal-close::-moz-focus-inner {
@@ -151,7 +131,6 @@
 
   border: 0;
 }
-
 @-webkit-keyframes remodal-opening-keyframes {
   from {
     -webkit-transform: scale(1.05);
@@ -166,7 +145,6 @@
     opacity: 1;
   }
 }
-
 @keyframes remodal-opening-keyframes {
   from {
     -webkit-transform: scale(1.05);
@@ -181,7 +159,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes remodal-closing-keyframes {
   from {
     -webkit-transform: scale(1);
@@ -196,7 +173,6 @@
     opacity: 0;
   }
 }
-
 @keyframes remodal-closing-keyframes {
   from {
     -webkit-transform: scale(1);
@@ -211,7 +187,6 @@
     opacity: 0;
   }
 }
-
 @-webkit-keyframes remodal-overlay-opening-keyframes {
   from {
     opacity: 0;
@@ -220,7 +195,6 @@
     opacity: 1;
   }
 }
-
 @keyframes remodal-overlay-opening-keyframes {
   from {
     opacity: 0;
@@ -229,7 +203,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes remodal-overlay-closing-keyframes {
   from {
     opacity: 1;
@@ -238,7 +211,6 @@
     opacity: 0;
   }
 }
-
 @keyframes remodal-overlay-closing-keyframes {
   from {
     opacity: 1;
@@ -247,7 +219,6 @@
     opacity: 0;
   }
 }
-
 .home{
   width: 500px;
   margin:0 auto;
@@ -258,12 +229,9 @@
 .home p{
   text-align: center;
 }
-
-
 .success, .fail{
   color: #fff;
 }
-
 #modal1Title{
   font-family: 'PT Sans',sans-serif;
   font-size: 24px;
@@ -271,7 +239,6 @@
   font-weight: 700;
   color: #535353;
 }
-
 .putName, .putPhone, .putEmail{
   margin: 0 auto;
   width: 341px;
@@ -304,13 +271,11 @@
   font-weight: 700;
   color: #ffffff;
 }
-
 @media only screen and (min-width: 440px) {
   .remodal {
     max-width: 466px;
   }
 }
-
 @media only screen and (max-width: 439px) {
   .remodal {
     max-width: 100%;
@@ -329,13 +294,9 @@
     font-size: 24px;
   }
 }
-
-
-
 .lt-ie9 .remodal-overlay {
   background: #2b2e38;
 }
-
 .lt-ie9 .remodal {
   width: 420px;
 }
